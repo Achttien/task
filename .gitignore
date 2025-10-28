@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Envs
+.venv/
+venv/
+.env
+
+# Build
+build/
+dist/
+!dist/
+dist/**/*
+!dist/*.zip
+!dist/windows/*.zip
+*.spec
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Agent state and credentials (created at runtime)
+.gcalsheet-agent/
+client_secret.json
+token.json
+state.json
+
+# OS
+.DS_Store
+Thumbs.db
